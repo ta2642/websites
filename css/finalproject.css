@@ -1,0 +1,121 @@
+header {
+    padding: 15px;
+    
+}
+/*header {
+    background: linear-gradient(#817a7a,#492f2f )
+} */
+body {
+    margin: 2%;
+}
+h1 {
+    color:#339BEB;
+    font-family: Arial;
+    text-align: center; /*left,right,center,justify*/
+    line-height: 400%;
+    background-color: rgb(179, 228, 247);
+    background-image: url("../images/ocean.jpg");
+    border-radius: 15px;
+}
+nav {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+h2 {
+    color: #9bbcc2;
+    height: 20%;
+    font-family: Arial;
+    /*background: linear-gradient(#817a7a,#492f2f); */
+    line-height: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+ul {
+    text-align: center;
+    position: relative;
+}
+li {
+    font-family: Arial;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+    
+}
+
+section {
+    width: 30%;
+    margin-right: 2%;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    background-color: teal;
+    background: radial-gradient(#648880, #293f50);
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+details {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+footer {
+    height: 100px;
+    clear: both; /*don't let anything float on either side */
+}
+
+img {
+    width: 75px;
+}
+
+.half{
+    width: 100%;
+    margin-right: 2%;
+    display: block;
+    float:left;
+}
+
+.whole {
+    width: 100%;
+    display: block;
+    clear:both;
+}
+nav a {
+    display:block;
+    text-align: center;
+    background-color: #0006cc;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+    font-weight: bold;
+    text-decoration: none; /*removes underline */
+    display: inline-block;
+    width: 22%;
+    border-radius: 15px;
+}
+/* links setting have precedence 
+hover -> focus -> active */
+a:hover {
+    background:rgb(179, 228, 247);
+    color:#0006cc;
+}
+a:focus {
+    background:rgb(179, 228, 247);
+    color:#0006cc;
+}
+
+a:active {
+    border:3px solid black;
+    border-style: outset;
+}

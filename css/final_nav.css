@@ -1,0 +1,133 @@
+header {
+    padding: 15px;
+    
+}
+/*header {
+    background: linear-gradient(#817a7a,#492f2f )
+} */
+body {
+    margin: 2%;
+}
+h1 {
+    color:#339BEB;
+    font-family: Arial;
+    text-align: center; /*left,right,center,justify*/
+    line-height: 400%;
+    background-color: rgb(179, 228, 247);
+    background-image: url("../images/ocean.jpg");
+    border-radius: 15px;
+}
+
+
+nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    background-color: lightblue;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: #0a0f13 solid 1px;
+
+}
+nav li:last-child {
+    border-right: none;
+}
+
+nav li li {
+    display: block;
+    border-right: none;
+}
+  
+nav li:hover {
+    background-color: aqua;
+}
+
+nav li ul {
+    position: absolute;
+    display: none;
+    
+}
+nav li:hover ul {
+    display: block;
+}
+
+nav li:hover ul>li:hover{
+    display: block;
+    background-color: aqua;
+    width: 20px;
+}
+
+br {
+    line-height: 20px;
+}
+
+section {
+    width: 30%;
+    margin-right: 2%;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    background-color: teal;
+    background: radial-gradient(#648880, #293f50);
+    border-radius: 10px;
+    margin-bottom: 2px;
+    
+}
+h2 {
+    color: #9bbcc2;
+    height: 20%;
+    font-family: Arial;
+    /*background: linear-gradient(#817a7a,#492f2f); */
+    line-height: 100%;
+    text-align: center;
+    padding: 5px;
+}
+details {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+footer {
+    height: 100px;
+    clear: both; /*don't let anything float on either side */
+}
+
+img {
+    width: 75px;
+}
+
+
+.half{
+    width: 100%;
+    margin-right: 2%;
+    display: block;
+    float:left;
+}
+
+.whole {
+    width: 100%;
+    display: block;
+    clear:both;
+}
+
+.closed {
+    display: none;
+}
+
+.opened {
+    display: block;
+}

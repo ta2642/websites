@@ -1,0 +1,50 @@
+/*
+cascading: 
+Default,
+external (link to css)
+internal (head of html with <style> tag)
+inline (inside html) (avoid using bc it nullifies previous rules)
+Latest rule gets precedence
+Override rule !important
+font-family: Arial !important;
+*/
+
+h1 {
+    color:#339BEB;
+    font-family: Arial;
+    text-align: center; /*left,right,center,justify*/
+    line-height: 400%;
+}
+
+p {
+    color:#1e2bd2;
+    font-family: Arial;
+    /*font-style: italic;*/
+    font-size: 100%; /*px or $ */
+    text-align: center;
+    background-color: #c5e0e7;
+    width: 800px;
+    height:200px;
+    clear:both;
+    border: solid 1px #cc00aa ;
+    border-style: outset;
+}
+
+span { /*inline */
+    height: 50%;
+    width: 75%;
+    text-align: center;
+    background-color: rgb(197, 230, 238);
+    /*float: right; */
+    display: inline-block;
+}
+div {
+    background-color: #ff00ff;
+    width: 200px;
+    height: 50px;
+    display:ruby;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+
+}

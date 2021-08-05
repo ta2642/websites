@@ -1,0 +1,38 @@
+/*
+cascading: 
+Default,
+external (link to css)
+internal (head of html with <style> tag)
+inline (inside html) (avoid using bc it nullifies previous rules)
+Latest rule gets precedence
+Override rule !important
+font-family: Arial !important;
+*/
+
+h1 {
+    color:#339BEB;
+    font-family: Arial;
+    text-align: center; /*left,right,center,justify*/
+    line-height: 400%;
+}
+
+p {
+    color:#1e2bd2;
+    font-family: Arial;
+    position: relative;
+    font-size: 100%; /*px or $ */
+    text-align: center;
+    background-color: #bcebf7;
+    border: solid 1px #be25a5 ;
+}
+
+.fixed {
+    position: static;
+    border: solid 1px #be25a5 ;
+    background: #d4e8ec;
+}
+
+.large {
+    font-size: x-large;
+    line-height: 3;
+}

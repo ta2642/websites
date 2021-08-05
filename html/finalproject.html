@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> boilerplate</title>
+        <link rel = "stylesheet" href = "css/final_nav.css">
+    </head>
+    <body>
+        <h1 id = "test"> Tester </h1>
+        <script >
+            //alert("Hello");
+            var name = prompt("what is ur name?");
+            document.write("<h1>" + "hi " + name+ "</h1>");
+            document.getElementById('test').innerHTML = "time to learn java";
+            console.log("hi me");
+        </script>
+
+            
+        <header>
+            <h1> Tamanna Haque</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://www.intro-webdesign.com/images/newlogo.png">
+                            About Me</a>
+                    </li> 
+                    <li>
+                        <a href="http://www.intro-webdesign.com/images/newlogo.png">
+                            Projects</a>
+                            <ul >
+                                <li  >
+                                    <a href = '#'> NLP</a>
+                                </li>
+                                <li>
+                                    <a href = '#'> ML</a>
+                                </li>
+                            </ul>
+                    </li> 
+                    <li>
+                        <a href="http://www.intro-webdesign.com/images/newlogo.png">
+                            faves</a>
+                    </li> 
+                </ul>
+
+            </nav>
+        </header>
+        <br>
+        <section class = "half"> 
+            <h2> Favorite Foods </h2>
+            <ul>
+                <li> Apples</li>
+                <li> Pizza </li>
+                <li> Crab</li>
+                <li> Chocolate Cake</li>
+            </ul>
+        </section>
+
+        <section class = "half"> 
+            <h2> Achievements</h2>
+        
+            <p> Progress in this course (100%) <br>
+            Progress in the specialization (20%) <br>
+             Progress in life goals (67%)</p>
+        </section>
+        
+        <section class = "whole"> 
+            <h2> More About Me</h2>
+            <details open>
+                <summary>My Childhood</summary>
+                <p> This was my life.</p>
+            </details>
+        </section>
+        
+        <footer>
+            <p> <img src = "http://www.intro-webdesign.com/images/newlogo.png"
+                alt = "footer image"/> <br>
+                To learn more, visit
+                <a href = "firstPage.html">First Page</a>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
